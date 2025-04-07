@@ -268,261 +268,246 @@ export default function TerminolohiyaPage() {
       imageUrl: "/images/latag.jpg"
     },
     {
-      id: 31,
-      term: "Lutó",
-      definition: "Pagluluto o paghahanda ng uling na bao gamit ang apoy o init.",
-      audioUrl: "/audio/luto.mp3",
-      type: "pandiwa",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Lutó",
-    },
-    {
-      id: 32,
-      term: "Makusog",
-      definition:
-        "Malakas o matindi ang lakas, maaaring gamitin upang ilarawan ang isang tunog, hangin, o kahit tao na malakas.",
-      audioUrl: "/audio/makusog.mp3",
-      type: "pang-uri",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Makusog",
-    },
-    {
-      id: 33,
-      term: "Nasusulo",
-      definition: "Tumutukoy sa isang bagay na nauurong o nasusunog, karaniwang ginagamit kapag may apoy.",
-      audioUrl: "/audio/nasusulo.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Nasusulo",
-    },
-    {
-      id: 34,
-      term: "Ningas",
-      definition:
-        "Ang paglakas ng apoy, karaniwan itong ginagamit upang ilarawan ang mabilis na paglaki ng apoy mula sa isang pinagmulan.",
-      audioUrl: "/audio/ningas.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Ningas",
-    },
-    {
-      id: 35,
-      term: "Pabakal",
-      definition: "Tumutukoy sa isang tao o bagay na nagbibili ng mga bagay, madalas sa pangangalakal o pamilihan.",
-      audioUrl: "/audio/pabakal.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Pabakal",
-    },
-    {
-      id: 36,
-      term: "Pag-ipon",
-      definition: "Pagsama sama ng bao bago ihulog sa butas para ulingin.",
-      audioUrl: "/audio/pag-ipon.mp3",
-      type: "pandiwa",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Pag-ipon",
-    },
-    {
-      id: 37,
-      term: "Pala",
-      definition:
-        "Isang kagamitan na may patag at malapad na ulo na nakakabit sa isang hawakan. Ginagamit upang maghukay ng lupa at alisin ang uling na bao.",
-      audioUrl: "/audio/pala.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Pala",
-    },
-    {
-      id: 38,
-      term: "Palapa",
-      definition:
-        "Tumutukoy sa kahoy na mula sa puno ng niyog, karaniwan ginagamit sa paggawa ng bubong o iba pang gamit.",
-      audioUrl: "/audio/palapa.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Palapa",
-    },
-    {
-      id: 39,
-      term: "Panuon",
-      definition: "Tumutukoy sa akto ng pagpapuno o pagtanggap ng laman sa isang bagay na walang laman.",
-      audioUrl: "/audio/panuon.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Panuon",
-    },
-    {
-      id: 40,
-      term: "Pasma",
-      definition:
-        "Isang uri ng sakit o kondisyon na nararamdaman kapag ikaw ay naliligo o nababasa pagkatapos magbabad sa init, isang uri ng pagkapagod sa katawan.",
-      audioUrl: "/audio/pasma.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Pasma",
-    },
-    {
-      id: 41,
-      term: "Petrolyo",
-      definition: "Tumutukoy sa likido o gas na ginagamit bilang panggatong, pampatibay ng makina, o iba pang gamit.",
-      audioUrl: "/audio/petrolyo.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Petrolyo",
-    },
-    {
-      id: 42,
-      term: "Pinamakutan",
-      definition: "Tumutukoy sa aksyon ng pagsindi ng apoy mula sa isang pinagmulan.",
-      audioUrl: "/audio/pinamakutan.mp3",
-      type: "pandiwa",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Pinamakutan",
-    },
-    {
-      id: 43,
-      term: "Pugon",
-      definition:
-        "Tumutukoy sa isang gamit na ginagamit sa pagluluto, karaniwang may mga apuyan o init na ginagamit upang magluto ng pagkain.",
-      audioUrl: "/audio/pugon.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Pugon",
-    },
-    {
-      id: 44,
-      term: "Sako",
-      definition:
-        "Isang malaking bag o lalagyan na kadalasang ginagamit sa pag-iimbak ng mga bagay, tulad ng uling, bigas, o iba pang materyales.",
-      audioUrl: "/audio/sako.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Sako",
-    },
-    {
-      id: 45,
-      term: "Salang",
-      definition:
-        "Paglalagay ng mga bao sa isang lugar o posisyon, kadalasang may kinalaman sa pag-aayos o pagsasaayos ng gamit.",
-      audioUrl: "/audio/salang.mp3",
-      type: "pandiwa",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Salang",
-    },
-    {
-      id: 46,
-      term: "Salansan",
-      definition: "Ang pag-aayos o pagpapatong-patong ng mga bagay, karaniwan upang madaling maipon o maorganisa.",
-      audioUrl: "/audio/salansan.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Salansan",
-    },
-    {
-      id: 47,
-      term: "Sirni",
-      definition: "Tumutukoy sa isang kagamitan na ginagamit upang salain ang bao o uling.",
-      audioUrl: "/audio/sirni.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Sirni",
-    },
-    {
-      id: 48,
-      term: "Sulwak",
-      definition:
-        "Pag-aapaw o paglabas ng likido mula sa isang lalagyan, karaniwang ginagamit upang ilarawan ang mga bagay na labis-labis.",
-      audioUrl: "/audio/sulwak.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Sulwak",
-    },
-    {
-      id: 49,
-      term: "Sundang",
-      definition:
-        "Isang uri ng matalim na panggupit na ginagamit sa mga gawain tulad ng pagputol ng kahoy o iba pang materyales.",
-      audioUrl: "/audio/sundang.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Sundang",
-    },
-    {
-      id: 50,
-      term: "Sungaw",
-      definition:
-        "Tumutukoy sa mga gas o usok na lumalabas mula sa isang bagay, lalo na kapag ito ay kumukulo o nag-iinit.",
-      audioUrl: "/audio/sungaw.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Sungaw",
-    },
-    {
-      id: 51,
-      term: "Switer",
-      definition:
-        "Isang damit na pang-itaas na karaniwang gawa sa lana o sintetikong materyal, na may mahabang manggas at kadalasang may kwelyo.",
-      audioUrl: "/audio/switer.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Switer",
-    },
-    {
-      id: 52,
-      term: "Taklob",
-      definition:
-        "Ang bagay na ginagamit upang takpan ang isang lalagyan o bagay, maaari ring gamitin bilang pandiwa para sa aksyon ng pagtanggal/paglalagay ng takip.",
-      audioUrl: "/audio/taklob.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Taklob",
-    },
-    {
-      id: 53,
-      term: "Tambak",
-      definition:
-        "Isang kondisyon o kalagayan kung saan ang maraming bagay ay tinipon o inipon sa isang lugar, maaaring gamitin upang ilarawan ang masalimuot na kalat.",
-      audioUrl: "/audio/tambak.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Tambak",
-    },
-    {
-      id: 54,
-      term: "Tambon",
-      definition: "Isang uri ng lalagyan o imbakan, kadalasang ginagamit sa pag-iimbak ng mga bagay sa komunidad.",
-      audioUrl: "/audio/tambon.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Tambon",
-    },
-    {
-      id: 55,
-      term: "Tingi-tingi",
-      definition:
-        "Pagbili o pagbebenta ng uling na bao na unti-unti o sa maliliit na bahagi, tulad ng mga produkto na binibili ng paisa-isa.",
-      audioUrl: "/audio/tingi-tingi.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Tingi-tingi",
-    },
-    {
-      id: 56,
-      term: "Tinukduan",
-      definition: "Tumutukoy sa aksyon ng pagtuturo o pagpapaliwanag ng kaalaman o kasanayan sa ibang tao.",
-      audioUrl: "/audio/tinukduan.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Tinukduan",
-    },
-    {
-      id: 57,
-      term: "Tubig",
-      definition: "Likidong walang kulay, ginagamit ito upang patayin ang apoy.",
-      audioUrl: "/audio/tubig.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Tubig",
-    },
-    {
-      id: 58,
-      term: "Uring",
-      definition: "Uling, ang nasunog na materyal na kadalasang ginagamit bilang panggatong o pangluto.",
-      audioUrl: "/audio/uring.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Uring",
-    },
-    {
-      id: 59,
-      term: "Uran",
-      definition: "Ulan o mga patak ng tubig mula sa kalangitan na dulot ng pag-ulan.",
-      audioUrl: "/audio/uran.mp3",
-      type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Uran",
-    },
-    {
-      id: 60,
-      term: "Utay-utay",
-      definition:
-        "Unti-unti o dahan-dahan na proseso ng paggawa ng isang bagay, maaaring gamitin upang ilarawan ang sunod-sunod na aksyon o paghahati-hati ng gawain.",
-      audioUrl: "/audio/utay-utay.mp3",
-      type: "pang-abay",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Utay-utay",
-    },
+    id: 31,
+    term: "Lutó",
+    definition: "Pagluluto o paghahanda ng uling na bao gamit ang apoy o init.",
+    audioUrl: "/audio/LUTO.ogg",
+    type: "pandiwa",
+    imageUrl: "/images/lutó.jpg"
+  },
+  {
+    id: 32,
+    term: "Makusog",
+    definition: "Malakas o matindi ang lakas, maaaring gamitin upang ilarawan ang isang tunog, hangin, o kahit tao na malakas.",
+    audioUrl: "/audio/MAKUSOG.ogg",
+    type: "pang-uri",
+    imageUrl: "/images/makusog.jpg"
+  },
+  {
+    id: 33,
+    term: "Nasusulo",
+    definition: "Tumutukoy sa isang bagay na nauurong o nasusunog, karaniwang ginagamit kapag may apoy.",
+    audioUrl: "/audio/NASUSULO.ogg",
+    type: "pangngalan",
+    imageUrl: "/images/nasusulo.jpg"
+  },
+  {
+    id: 34,
+    term: "Ningas",
+    definition: "Ang paglakas ng apoy, karaniwan itong ginagamit upang ilarawan ang mabilis na paglaki ng apoy mula sa isang pinagmulan.",
+    audioUrl: "/audio/NINGAS.ogg",
+    type: "pangngalan",
+    imageUrl: "/images/ningas.jpg"
+  },
+  {
+    id: 35,
+    term: "Pabakal",
+    definition: "Tumutukoy sa isang tao o bagay na nagbibili ng mga bagay, madalas sa pangangalakal o pamilihan.",
+    audioUrl: "/audio/PABAKAL.acc",
+    type: "pangngalan",
+    imageUrl: "/images/pabakal.jpg"
+  },
+  {
+    id: 36,
+    term: "Pag-ipon",
+    definition: "Pagsama sama ng bao bago ihulog sa butas para ulingin.",
+    audioUrl: "/audio/PAG-IPON.acc",
+    type: "pandiwa",
+    imageUrl: "/images/pag-ipon.jpg"
+  },
+  {
+    id: 37,
+    term: "Pala",
+    definition: "Isang kagamitan na may patag at malapad na ulo na nakakabit sa isang hawakan. Ginagamit upang maghukay ng lupa at alisin ang uling na bao.",
+    audioUrl: "/audio/PALA.acc",
+    type: "pangngalan",
+    imageUrl: "/images/pala.jpg"
+  },
+  {
+    id: 38,
+    term: "Palapa",
+    definition: "Tumutukoy sa kahoy na mula sa puno ng niyog, karaniwan ginagamit sa paggawa ng bubong o iba pang gamit.",
+    audioUrl: "/audio/PALAPA.acc",
+    type: "pangngalan",
+    imageUrl: "/images/palapa.jpg"
+  },
+  {
+    id: 39,
+    term: "Panuon",
+    definition: "Tumutukoy sa akto ng pagpapuno o pagtanggap ng laman sa isang bagay na walang laman.",
+    audioUrl: "/audio/PANUON.acc",
+    type: "pangngalan",
+    imageUrl: "/images/panuon.jpg"
+  },
+  {
+    id: 40,
+    term: "Pasma",
+    definition: "Isang uri ng sakit o kondisyon na nararamdaman kapag ikaw ay naliligo o nababasa pagkatapos magbabad sa init, isang uri ng pagkapagod sa katawan.",
+    audioUrl: "/audio/PASMA.acc",
+    type: "pangngalan",
+    imageUrl: "/images/pasma.jpg"
+  },
+  {
+    id: 41,
+    term: "Petrolyo",
+    definition: "Tumutukoy sa likido o gas na ginagamit bilang panggatong, pampatibay ng makina, o iba pang gamit.",
+    audioUrl: "/audio/Petrolyo.acc",
+    type: "pangngalan",
+    imageUrl: "/images/petrolyo.jpg"
+  },
+  {
+    id: 42,
+    term: "Pinamakutan",
+    definition: "Tumutukoy sa aksyon ng pagsindi ng apoy mula sa isang pinagmulan.",
+    audioUrl: "/audio/PINAMAKUTAN.acc",
+    type: "pandiwa",
+    imageUrl: "/images/pinamakutan.jpg"
+  },
+  {
+    id: 43,
+    term: "Pugon",
+    definition: "Tumutukoy sa isang gamit na ginagamit sa pagluluto, karaniwang may mga apuyan o init na ginagamit upang magluto ng pagkain.",
+    audioUrl: "/audio/PUGON.acc",
+    type: "pangngalan",
+    imageUrl: "/images/pugon.jpg"
+  },
+  {
+    id: 44,
+    term: "Sako",
+    definition: "Isang malaking bag o lalagyan na kadalasang ginagamit sa pag-iimbak ng mga bagay, tulad ng uling, bigas, o iba pang materyales.",
+    audioUrl: "/audio/SAKO.acc",
+    type: "pangngalan",
+    imageUrl: "/images/sako.jpg"
+  },
+  {
+    id: 45,
+    term: "Salang",
+    definition: "Paglalagay ng mga bao sa isang lugar o posisyon, kadalasang may kinalaman sa pag-aayos o pagsasaayos ng gamit.",
+    audioUrl: "/audio/SALANG.acc",
+    type: "pandiwa",
+    imageUrl: "/images/salang.jpg"
+  },
+  {
+    id: 46,
+    term: "Salansan",
+    definition: "Ang pag-aayos o pagpapatong-patong ng mga bagay, karaniwan upang madaling maipon o maorganisa.",
+    audioUrl: "/audio/SALANSAN.acc",
+    type: "pangngalan",
+    imageUrl: "/images/salansan.jpg"
+  },
+  {
+    id: 47,
+    term: "Sirni",
+    definition: "Tumutukoy sa isang kagamitan na ginagamit upang salain ang bao o uling.",
+    audioUrl: "/audio/SIRNI.acc",
+    type: "pangngalan",
+    imageUrl: "/images/sirni.jpg"
+  },
+  {
+    id: 48,
+    term: "Sulwak",
+    definition: "Pag-aapaw o paglabas ng likido mula sa isang lalagyan, karaniwang ginagamit upang ilarawan ang mga bagay na labis-labis.",
+    audioUrl: "/audio/SULWAK.acc",
+    type: "pangngalan",
+    imageUrl: "/images/sulwak.jpg"
+  },
+  {
+    id: 49,
+    term: "Sundang",
+    definition: "Isang uri ng matalim na panggupit na ginagamit sa mga gawain tulad ng pagputol ng kahoy o iba pang materyales.",
+    audioUrl: "/audio/SUNDANG.acc",
+    type: "pangngalan",
+    imageUrl: "/images/sundang.jpg"
+  },
+  {
+    id: 50,
+    term: "Sungaw",
+    definition: "Tumutukoy sa mga gas o usok na lumalabas mula sa isang bagay, lalo na kapag ito ay kumukulo o nag-iinit.",
+    audioUrl: "/audio/SUNGAW.acc",
+    type: "pangngalan",
+    imageUrl: "/images/sungaw.jpg"
+  },
+  {
+    id: 51,
+    term: "Switer",
+    definition: "Isang damit na pang-itaas na karaniwang gawa sa lana o sintetikong materyal, na may mahabang manggas at kadalasang may kwelyo.",
+    audioUrl: "/audio/SWITER.acc",
+    type: "pangngalan",
+    imageUrl: "/images/switer.jpg"
+  },
+  {
+    id: 52,
+    term: "Taklob",
+    definition: "Ang bagay na ginagamit upang takpan ang isang lalagyan o bagay, maaari ring gamitin bilang pandiwa para sa aksyon ng pagtanggal/paglalagay ng takip.",
+    audioUrl: "/audio/TAKLOB.acc",
+    type: "pangngalan",
+    imageUrl: "/images/taklob.jpg"
+  },
+  {
+    id: 53,
+    term: "Tambak",
+    definition: "Isang kondisyon o kalagayan kung saan ang maraming bagay ay tinipon o inipon sa isang lugar, maaaring gamitin upang ilarawan ang masalimuot na kalat.",
+    audioUrl: "/audio/TAMBAK.acc",
+    type: "pangngalan",
+    imageUrl: "/images/tambak.jpg"
+  },
+  {
+    id: 54,
+    term: "Tambon",
+    definition: "Isang uri ng lalagyan o imbakan, kadalasang ginagamit sa pag-iimbak ng mga bagay sa komunidad.",
+    audioUrl: "/audio/TAMBON.acc",
+    type: "pangngalan",
+    imageUrl: "/images/tambon.jpg"
+  },
+  {
+    id: 55,
+    term: "Tingi-tingi",
+    definition: "Pagbili o pagbebenta ng uling na bao na unti-unti o sa maliliit na bahagi, tulad ng mga produkto na binibili ng paisa-isa.",
+    audioUrl: "/audio/TINGI-TINGI.acc",
+    type: "pangngalan",
+    imageUrl: "/images/tingi-tingi.jpg"
+  },
+  {
+    id: 56,
+    term: "Tinukduan",
+    definition: "Tumutukoy sa aksyon ng pagtuturo o pagpapaliwanag ng kaalaman o kasanayan sa ibang tao.",
+    audioUrl: "/audio/TINUKDUAN.acc",
+    type: "pangngalan",
+    imageUrl: "/images/tinukduan.jpg"
+  },
+  {
+    id: 57,
+    term: "Tubig",
+    definition: "Likidong walang kulay, ginagamit ito upang patayin ang apoy.",
+    audioUrl: "/audio/TUBIG.acc",
+    type: "pangngalan",
+    imageUrl: "/images/tubig.jpg"
+  },
+  {
+    id: 58,
+    term: "Uring",
+    definition: "Uling, ang nasunog na materyal na kadalasang ginagamit bilang panggatong o pangluto.",
+    audioUrl: "/audio/URING.acc",
+    type: "pangngalan",
+    imageUrl: "/images/uring.jpg"
+  },
+  {
+    id: 59,
+    term: "Uran",
+    definition: "Ulan o mga patak ng tubig mula sa kalangitan na dulot ng pag-ulan.",
+    audioUrl: "/audio/URAN.acc",
+    type: "pangngalan",
+    imageUrl: "/images/uran.jpg"
+  },
+  {
+    id: 60,
+    term: "Utay-utay",
+    definition: "Unti-unti o dahan-dahan na proseso ng paggawa ng isang bagay, maaaring gamitin upang ilarawan ang sunod-sunod na aksyon o paghahati-hati ng gawain.",
+    audioUrl: "/audio/UTAY-UTAY.acc",
+    type: "pang-abay",
+    imageUrl: "/images/utay-utay.jpg"
+  },
+
   ]
 
   // Filter terms based on search
