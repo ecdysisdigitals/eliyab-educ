@@ -38,7 +38,7 @@ export default function PagsusuliPage() {
       options: [
         { id: 1, imageUrl: "/images/barani.jpg" },
         { id: 2, imageUrl: "/images/anahaw.jpg" },
-       { id: 3, imageUrl: "/images/baul.jpg" },
+        { id: 3, imageUrl: "/images/baul.jpg" },
         { id: 4, imageUrl: "/images/dangdang.jpg" },
       ],
       correctAnswer: 2,
@@ -49,7 +49,7 @@ export default function PagsusuliPage() {
       definition:
         "Isang kagamitan na gawa sa bakal na may matulis na dulo. Karaniwang ginagami upang maghukay ng lupa at alisin ang mga ugat ng halaman.",
       options: [
-         { id: 1, imageUrl: "/images/ningas.jpg" },
+        { id: 1, imageUrl: "/images/ningas.jpg" },
         { id: 2, imageUrl: "/images/nasusulo.jpg" },
         { id: 3, imageUrl: "/images/bareta.jpg" },
         { id: 4, imageUrl: "/images/kaag.jpg" },
@@ -62,7 +62,7 @@ export default function PagsusuliPage() {
       definition: "Usok na mula sa apoy, kadalasang nagmumula sa pagkasunog ng mga bagay.",
       options: [
         { id: 1, imageUrl: "/images/aso.jpg" },
-         { id: 3, imageUrl: "/images/dangdang.jpg" },
+        { id: 3, imageUrl: "/images/dangdang.jpg" },
         { id: 4, imageUrl: "/images/kalot.jpg" },
         { id: 4, imageUrl: "/images/amak.jpg" },
       ],
@@ -76,7 +76,7 @@ export default function PagsusuliPage() {
       options: [
         { id: 1, imageUrl: "/images/gwantes.jpg" },
         { id: 2, imageUrl: "/images/baga.jpg" },
-         { id: 3, imageUrl: "/images/gatong.jpg" },
+        { id: 3, imageUrl: "/images/gatong.jpg" },
         { id: 4, imageUrl: "/images/katsa.jpg" },
       ],
       correctAnswer: 2,
@@ -87,9 +87,9 @@ export default function PagsusuliPage() {
       definition:
         "Isang pantakip para sa kamay, karaniwang gawa sa tela o katad, na may hiwalay na daliri para sa bawat daliri.",
       options: [
-         { id: 3, imageUrl: "/images/bareta.jpg" },
+        { id: 3, imageUrl: "/images/bareta.jpg" },
         { id: 4, imageUrl: "/images/kaag.jpg" },
-         { id: 3, imageUrl: "/images/gwantes.jpg" },
+        { id: 3, imageUrl: "/images/gwantes.jpg" },
         { id: 4, imageUrl: "/images/kaag.jpg" },
       ],
       correctAnswer: 3,
@@ -101,7 +101,7 @@ export default function PagsusuliPage() {
       options: [
         { id: 1, imageUrl: "/images/kalayo.jpg" },
         { id: 2, imageUrl: "/images/amak.jpg" },
-         { id: 3, imageUrl: "/images/bareta.jpg" },
+        { id: 3, imageUrl: "/images/bareta.jpg" },
         { id: 4, imageUrl: "/images/kaag.jpg" },
       ],
       correctAnswer: 1,
@@ -113,9 +113,9 @@ export default function PagsusuliPage() {
         "Isang kagamitan na may patag at malapad na ulo na nakakabit sa isang hawakan. Ginagamit upang maghukay ng lupa at alisin ang uling na bao.",
       options: [
         { id: 1, imageUrl: "/images/bareta.jpg" },
-         { id: 3, imageUrl: "/images/gwantes.jpg" },
+        { id: 3, imageUrl: "/images/gwantes.jpg" },
         { id: 4, imageUrl: "/images/kaag.jpg" },
-         { id: 3, imageUrl: "/images/pala.jpg" },
+        { id: 3, imageUrl: "/images/pala.jpg" },
       ],
       correctAnswer: 4,
     },
@@ -125,9 +125,9 @@ export default function PagsusuliPage() {
       definition:
         "Isang malaking bag o lalagyan na kadalasang ginagamit sa pag-iimbak ng mga bagay, tulad ng uling, bigas, o iba pang materyales.",
       options: [
-         { id: 3, imageUrl: "/images/bareta.jpg" },
+        { id: 3, imageUrl: "/images/bareta.jpg" },
         { id: 4, imageUrl: "/images/sako.jpg" },
-         { id: 3, imageUrl: "/images/salnsan.jpg" },
+        { id: 3, imageUrl: "/images/salnsan.jpg" },
         { id: 4, imageUrl: "/images/sirni.jpg" },
       ],
       correctAnswer: 2,
@@ -139,7 +139,7 @@ export default function PagsusuliPage() {
       options: [
         { id: 1, imageUrl: "/images/uring.jpg" },
         { id: 2, imageUrl: "/images/baga.jpg" },
-         { id: 3, imageUrl: "/images/baul.jpg" },
+        { id: 3, imageUrl: "/images/baul.jpg" },
         { id: 4, imageUrl: "/images/amak.jpg" },
       ],
       correctAnswer: 1,
