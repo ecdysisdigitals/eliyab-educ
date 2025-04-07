@@ -30,7 +30,7 @@ export default function TerminolohiyaPage() {
       definition: "Apoy o apoy na may matinding init at mabilis kumalat.",
       audioUrl: "/audio/AMAK.ogg",
       type: "pangngalan",
-      imageUrl: "/images/amak.jpeg",
+      imageUrl: "/images/amak.jpg",
     },
     {
       id: 3,
@@ -135,7 +135,7 @@ export default function TerminolohiyaPage() {
         "Tumutukoy sa isang bagay na maraming bilang o dami, maaaring gamitin upang ilarawan ang sitwasyon kung saan ang isang bagay ay nagiging sobra o labis.",
       audioUrl: "/audio/GULPI.ogg",
       type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Gulpi",
+      imageUrl: "/images/gulpi.jpg",
     },
     {
       id: 15,
@@ -183,94 +183,89 @@ export default function TerminolohiyaPage() {
       id: 20,
       term: "Hulog",
       definition: "Tumutukoy sa aksyon ng pagbagsak o paghuhulog ng isang bagay mula sa isang taas o pinagmulan.",
-      audioUrl: "/audio/hulog.mp3",
+      audioUrl: "/audio/HULOG.ogg",
       type: "pandiwa",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Hulog",
+      imageUrl: "/images/hulog.jpg"
     },
     {
       id: 21,
       term: "Kaag",
       definition: "Paglalagay o pagsingit ng isang bagay sa isang lugar o sitwasyon.",
-      audioUrl: "/audio/kaag.mp3",
+      audioUrl: "/audio/KAAG.ogg",
       type: "pandiwa",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Kaag",
+      imageUrl: "/images/kaag.jpg"
     },
     {
       id: 22,
       term: "Kalayo",
       definition: "Apoy na ginagamit sa pagluluto, pagpapainit, o pag-iilaw.",
-      audioUrl: "/audio/kalayo.mp3",
+      audioUrl: "/audio/KALAYO.ogg",
       type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Kalayo",
+      imageUrl: "/images/kalayo.jpg"
     },
     {
       id: 23,
       term: "Kalot",
       definition: "Butas o kaluwagan na nahuhukay sa lupa o isang bagay.",
-      audioUrl: "/audio/kalot.mp3",
+      audioUrl: "/audio/KALOT.ogg",
       type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Kalot",
+      imageUrl: "/images/kalot.jpg"
     },
     {
       id: 24,
       term: "Katsa",
       definition: "Tumutukoy sa isang kapirasong tela na ginagamit upang magsindi ng apoy.",
-      audioUrl: "/audio/katsa.mp3",
+      audioUrl: "/audio/KATSA.ogg",
       type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Katsa",
+      imageUrl: "/images/katsa.jpg"
     },
     {
       id: 25,
       term: "Kubeta",
-      definition:
-        "Tumutukoy sa isang lugar na ginagamit para sa pangangailangang pangkalinisan tulad ng pag-ihi, pagdumi o paghugas. Lugar na karaniwang ginagamitan ng uling sa paggagawa.",
-      audioUrl: "/audio/kubeta.mp3",
+      definition: "Tumutukoy sa isang lugar na ginagamit para sa pangangailangang pangkalinisan tulad ng pag-ihi, pagdumi o paghugas. Lugar na karaniwang ginagamitan ng uling sa paggagawa.",
+      audioUrl: "/audio/KUBETA.ogg",
       type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Kubeta",
+      imageUrl: "/images/kubeta.jpg"
     },
     {
       id: 26,
       term: "Kulob",
-      definition:
-        "Isang lugar o sulok na parang tinatago o walang hangin, madalas ay ginagamit upang ilarawan ang isang nakapaloob na lugar.",
-      audioUrl: "/audio/kulob.mp3",
+      definition: "Isang lugar o sulok na parang tinatago o walang hangin, madalas ay ginagamit upang ilarawan ang isang nakapaloob na lugar.",
+      audioUrl: "/audio/KULOB.ogg",
       type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Kulob",
+      imageUrl: "/images/kulob.jpg"
     },
     {
       id: 27,
       term: "Laad",
-      definition:
-        "Ang pagsikò o sindi ng apoy, karaniwan itong ginagamit upang ipahiwatig na nagsimula na ang apoy o nagkaroon ng maliit na alitaptap mula sa isang pinagmulan ng apoy.",
-      audioUrl: "/audio/laad.mp3",
+      definition: "Ang pagsikò o sindi ng apoy, karaniwan itong ginagamit upang ipahiwatig na nagsimula na ang apoy o nagkaroon ng maliit na alitaptap mula sa isang pinagmulan ng apoy.",
+      audioUrl: "/audio/LAAD.ogg",
       type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Laad",
+      imageUrl: "/images/laad.jpg"
     },
     {
       id: 28,
       term: "Lab'as",
       definition: "Tumutukoy sa isang bagay na hindi pa tuyo o basa.",
-      audioUrl: "/audio/labas.mp3",
+      audioUrl: "/audio/LABAS.ogg",
       type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Lab'as",
+      imageUrl: "/images/lab'as.jpg"
     },
     {
       id: 29,
       term: "Labot",
-      definition:
-        "Isang butas o agwat na nabuo sa isang bagay, karaniwang nangyayari dahil sa pagkabasag o kalikasan ng materyal.",
-      audioUrl: "/audio/labot.mp3",
+      definition: "Isang butas o agwat na nabuo sa isang bagay, karaniwang nangyayari dahil sa pagkabasag o kalikasan ng materyal.",
+      audioUrl: "/audio/LABOT.ogg",
       type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Labot",
+      imageUrl: "/images/labot.jpg"
     },
     {
       id: 30,
       term: "Latag",
-      definition:
-        "Paglalatag o pagpapalawak ng mga bagay sa isang patag na ibabaw, karaniwang ginagamit upang ilarawan ang paghahanda ng lugar tulad ng sa picnic o ibang aktibidad.",
-      audioUrl: "/audio/latag.mp3",
+      definition: "Paglalatag o pagpapalawak ng mga bagay sa isang patag na ibabaw, karaniwang ginagamit upang ilarawan ang paghahanda ng lugar tulad ng sa picnic o ibang aktibidad.",
+      audioUrl: "/audio/LATAG.ogg",
       type: "pandiwa",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Latag",
+      imageUrl: "/images/latag.jpg"
     },
     {
       id: 31,
