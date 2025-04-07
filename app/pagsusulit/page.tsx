@@ -26,7 +26,7 @@ export default function PagsusuliPage() {
         { id: 1, imageUrl: "/images/baul.jpg" },
         { id: 2, imageUrl: "/images/anahaw.jpg" },
         { id: 3, imageUrl: "/images/gatong.jpg" },
-        { id: 4, imageUrl: "/images/aso.jpga" },
+        { id: 4, imageUrl: "/images/aso.jpg" },
       ],
       correctAnswer: 1,
     },
