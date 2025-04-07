@@ -39,7 +39,7 @@ export default function PagsusuliPage() {
         { id: 1, imageUrl: "/images/barani.jpg" },
         { id: 2, imageUrl: "/images/anahaw.jpg" },
         { id: 3, imageUrl: "/images/aso.jpg" },
-        { id: 4, imageUrl: "/images/salnsan.jpg" },
+        { id: 4, imageUrl: "/images/salansan.jpg" },
       ],
       correctAnswer: 2,
     },
@@ -101,7 +101,7 @@ export default function PagsusuliPage() {
       options: [
         { id: 1, imageUrl: "/images/kalayo.jpg" },
         { id: 2, imageUrl: "/images/baul.jpg" },
-        { id: 3, imageUrl: "/images/pabakal.jpg" },
+        { id: 3, imageUrl: "/images/hakat.jpg" },
         { id: 4, imageUrl: "/images/tubig.jpg" },
       ],
       correctAnswer: 1,
