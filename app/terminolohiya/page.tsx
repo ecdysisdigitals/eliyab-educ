@@ -20,7 +20,7 @@ export default function TerminolohiyaPage() {
       id: 1,
       term: "Albok",
       definition: "Alikabok o maliliit na butil ng dumi o lupa na matatagpuan sa hangin o sa ibabaw ng mga bagay.",
-      audioUrl: "/audio/albok.mp3",
+      audioUrl: "/audio/ALBOK.ogg",
       type: "pangngalan",
       imageUrl: "/images/albok.jpg",
     },
