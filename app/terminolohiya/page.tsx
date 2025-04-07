@@ -305,7 +305,7 @@ export default function TerminolohiyaPage() {
     definition: "Tumutukoy sa isang tao o bagay na nagbibili ng mga bagay, madalas sa pangangalakal o pamilihan.",
     audioUrl: "/audio/PABAKAL.acc",
     type: "pangngalan",
-    imageUrl: "/images/pabakal.jpg"
+    imageUrl: "/images/pabakal.png"
   },
   {
     id: 36,
@@ -313,7 +313,7 @@ export default function TerminolohiyaPage() {
     definition: "Pagsama sama ng bao bago ihulog sa butas para ulingin.",
     audioUrl: "/audio/PAG-IPON.acc",
     type: "pandiwa",
-    imageUrl: "/images/pag-ipon.jpg"
+    imageUrl: "/images/pagipon.jpg"
   },
   {
     id: 37,
@@ -465,7 +465,7 @@ export default function TerminolohiyaPage() {
     definition: "Pagbili o pagbebenta ng uling na bao na unti-unti o sa maliliit na bahagi, tulad ng mga produkto na binibili ng paisa-isa.",
     audioUrl: "/audio/TINGI-TINGI.acc",
     type: "pangngalan",
-    imageUrl: "/images/tingi-tingi.jpg"
+    imageUrl: "/images/tingitingi.jpg"
   },
   {
     id: 56,
