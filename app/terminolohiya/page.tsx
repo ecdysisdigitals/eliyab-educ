@@ -108,7 +108,7 @@ export default function TerminolohiyaPage() {
         "Isang sukat ng haba, karaniwang ginagamit upang ilarawan ang haba ng kamay mula sa dulo ng mga daliri hanggang sa pulso.",
       audioUrl: "/audio/DANGKAL.ogg",
       type: "pangngalan",
-      imageUrl: "/placeholder.svg?height=200&width=300&text=Dangkal",
+      imageUrl: "/images/dangkal.jpg",
     },
     {
       id: 12,
@@ -353,7 +353,7 @@ export default function TerminolohiyaPage() {
     definition: "Tumutukoy sa likido o gas na ginagamit bilang panggatong, pampatibay ng makina, o iba pang gamit.",
     audioUrl: "/audio/Petrolyo.aac",
     type: "pangngalan",
-    imageUrl: "/images/petrolyo.jpg"
+    imageUrl: "/images/petrolyo.webp"
   },
   {
     id: 42,
@@ -457,7 +457,7 @@ export default function TerminolohiyaPage() {
     definition: "Isang uri ng lalagyan o imbakan, kadalasang ginagamit sa pag-iimbak ng mga bagay sa komunidad.",
     audioUrl: "/audio/TAMBON.aac",
     type: "pangngalan",
-    imageUrl: "/images/tambon.jpg"
+    imageUrl: "/images/tambon.jpeg"
   },
   {
     id: 55,
