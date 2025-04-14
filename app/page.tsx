@@ -197,7 +197,7 @@ export default function Home() {
                   variant="link"
                   className="text-orange-500 p-0 group-hover:translate-x-2 transition-transform duration-300"
                 >
-                  <Link href="/games" className="flex items-center">
+                  <Link href="/games/pagsusulit" className="flex items-center">
                     Tuklasin
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
