@@ -197,7 +197,7 @@ export default function Home() {
                   variant="link"
                   className="text-orange-500 p-0 group-hover:translate-x-2 transition-transform duration-300"
                 >
-                  <Link href="/games/pagsusulit" className="flex items-center">
+                  <Link href="/games" className="flex items-center">
                     Tuklasin
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
@@ -246,7 +246,7 @@ export default function Home() {
                 asChild
                 className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-6 text-lg group transition-all duration-300 hover:translate-y-[-5px] relative overflow-hidden"
               >
-                <Link href="/games/pagsusulit">
+                <Link href="/games">
                   <span className="relative z-10 flex items-center">
                     Subukan ang Pagsusulit
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
