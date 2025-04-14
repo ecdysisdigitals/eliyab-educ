@@ -63,7 +63,7 @@ export default function Navbar() {
             Terminolohiya
           </Link>
           <Link
-            href="/pagsusulit"
+            href="/games"
             className="nav-link text-white hover:text-orange-400 transition-colors duration-300 py-1"
           >
             Pagsusulit
@@ -97,7 +97,7 @@ export default function Navbar() {
               Terminolohiya
             </Link>
             <Link
-              href="/pagsusulit"
+              href="/games"
               className="text-white hover:text-orange-400 transition-colors duration-300 py-2 pl-2 border-l-2 border-transparent hover:border-orange-500"
               onClick={() => setIsMenuOpen(false)}
             >
