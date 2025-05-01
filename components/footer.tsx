@@ -116,15 +116,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="space-y-3">
-            <h3 className="text-lg font-semibold text-orange-500">Katuwang na IT Ekspert</h3>
-            <ul className="space-y-1 text-gray-300">
-              <li>placeholder</li>
-              <li>placeholder</li>
-              <li>placeholder</li>
-            </ul>
-          </div>
-        </div>
+    
 
         {/* Social media links */}
         <div className="flex justify-center mt-8 gap-6">
