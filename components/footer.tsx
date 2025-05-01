@@ -6,19 +6,6 @@ import Image from "next/image"
 import "./footer.css"
 
 export default function Footer() {
-  const floatingCoals = Array.from({ length: 5 }).map((_, i) => {
-    const size = 10 + Math.random() * 20
-    const style = {
-      left: `${Math.random() * 100}%`,
-      top: `${Math.random() * 100}%`,
-      width: `${size}px`,
-      height: `${size}px`,
-      animationDuration: `${20 + Math.random() * 40}s`,
-      animationDelay: `${Math.random() * 10}s`,
-    }
-    return <div key={`coal-${i}`} className="floating-coal absolute" style={style}></div>
-  })
-
   return (
     <footer className="bg-black border-t border-orange-900/20 py-10 relative overflow-hidden">
       {/* Decorative fire effect */}
@@ -27,7 +14,20 @@ export default function Footer() {
       </div>
 
       {/* Floating coal particles */}
-      {floatingCoals}
+      {Array.from({ length: 5 }).map((_, i) => (
+        <div
+          key={i}
+          className="floating-coal absolute"
+          style={{
+            left: `${Math.random() * 100}%`,
+            top: `${Math.random() * 100}%`,
+            width: `${10 + Math.random() * 20}px`,
+            height: `${10 + Math.random() * 20}px`,
+            animationDuration: `${20 + Math.random() * 40}s`,
+            animationDelay: `${Math.random() * 10}s`,
+          }}
+        ></div>
+      ))}
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-center">
@@ -47,17 +47,23 @@ export default function Footer() {
             </span>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-4 md:gap-8 text-center md:text-left">
-            <Link href="/" className="text-white hover:text-orange-400 transition-colors duration-300">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-8">
+            <Link href="/" className="nav-link text-white hover:text-orange-400 transition-colors duration-300">
               Pangunahing Pahina
             </Link>
-            <Link href="/proseso" className="text-white hover:text-orange-400 transition-colors duration-300">
+            <Link href="/proseso" className="nav-link text-white hover:text-orange-400 transition-colors duration-300">
               Proseso
             </Link>
-            <Link href="/terminolohiya" className="text-white hover:text-orange-400 transition-colors duration-300">
+            <Link
+              href="/terminolohiya"
+              className="nav-link text-white hover:text-orange-400 transition-colors duration-300"
+            >
               Terminolohiya
             </Link>
-            <Link href="/pagsusulit" className="text-white hover:text-orange-400 transition-colors duration-300">
+            <Link
+              href="/pagsusulit"
+              className="nav-link text-white hover:text-orange-400 transition-colors duration-300"
+            >
               Pagsusulit
             </Link>
           </div>
@@ -95,24 +101,24 @@ export default function Footer() {
           </div>
 
           <div className="space-y-3">
-            <h3 className="text-lg font-semibold text-orange-500">Katuwang na IT Eksperto</h3>
+            <h3 className="text-lg font-semibold text-orange-500">Katuwang na IT Ekspert</h3>
             <ul className="space-y-1 text-gray-300">
-              <li>Darating Pa</li>
-              <li>Darating Pa</li>
-              <li>Darating Pa</li>
+              <li>placeholder</li>
+              <li>placeholder</li>
+              <li>placeholder</li>
             </ul>
           </div>
         </div>
 
         {/* Social media links */}
         <div className="flex justify-center mt-8 gap-6">
-          <a href="#" aria-label="Facebook" className="text-white hover:text-orange-400 transition-colors duration-300">
+          <a href="#" className="text-white hover:text-orange-400 transition-colors duration-300">
             <Facebook className="h-6 w-6" />
           </a>
-          <a href="#" aria-label="Twitter" className="text-white hover:text-orange-400 transition-colors duration-300">
+          <a href="#" className="text-white hover:text-orange-400 transition-colors duration-300">
             <Twitter className="h-6 w-6" />
           </a>
-          <a href="#" aria-label="Instagram" className="text-white hover:text-orange-400 transition-colors duration-300">
+          <a href="#" className="text-white hover:text-orange-400 transition-colors duration-300">
             <Instagram className="h-6 w-6" />
           </a>
         </div>
