@@ -1,0 +1,59 @@
+/* Fire effect at the bottom */
+.fire-base {
+  background: linear-gradient(to right, #ff4800, #ff7e00, #ff4800);
+  height: 100%;
+  animation: fire-glow 3s infinite alternate;
+}
+
+@keyframes fire-glow {
+  0% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Floating coal particles */
+.floating-coal {
+  background-color: #333;
+  border-radius: 50%;
+  opacity: 0.4;
+  animation-name: float-up;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-100px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Hover effects for navigation links */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #f97316; /* orange-500 */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
