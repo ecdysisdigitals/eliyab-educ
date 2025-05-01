@@ -91,11 +91,27 @@ export default function Footer() {
                   className="object-cover"
                 />
               </div>
-              <p className="text-gray-300 font-medium">Rose Ann Dela Paz Aler</p>
+              <p className="text-gray-300 font-medium">ROSE ANN DELA PAZ-ALER, PhD</p>
               <p className="text-gray-400 text-sm mt-2">Propesor sa Filipino at Eksperto sa Kulturang Pilipino</p>
               <p className="text-gray-400 text-sm mt-1">
-                Nag-ambag ng mahahalagang kaalaman at gabay sa pananaliksik tungkol sa proseso ng pag-uuling ng bao at
-                ang kahalagahan nito sa kultura ng San Lorenzo Ruiz.
+                Isang dalubguro sa Filipino ng Camarines Norte State College. Kasalukuyang Puno ng Sentro ng Wika at Kultura sa kanilang paaralan sa ilalim ng Komisyon sa Wikang Filipino. 
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center md:items-start">
+              <div className="relative h-24 w-24 mb-3 rounded-full overflow-hidden border-2 border-orange-500">
+                <Image
+                  src="/images/tagapayo2.jpg"
+                  alt="Rose Ann Dela Paz Aler"
+                  width={96}
+                  height={96}
+                  className="object-cover"
+                />
+              </div>
+              <p className="text-gray-300 font-medium">RYAN S. RODRIGUEZ, PhD</p>
+              <p className="text-gray-400 text-sm mt-2">Propesor sa Filipino at Eksperto sa Kulturang Pilipino</p>
+              <p className="text-gray-400 text-sm mt-1">
+               Nagtapos ng kolehiyo sa La Consolacion College-Daet sa kursong Batsilyer sa Pansekondaryang Edukasyon major sa Filipino noong 2005. 
               </p>
             </div>
           </div>
