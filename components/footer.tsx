@@ -2,6 +2,9 @@ import Link from "next/link"
 import { Facebook, Twitter, Instagram } from "lucide-react"
 import Image from "next/image"
 
+// Add this CSS
+import "./footer.css"
+
 export default function Footer() {
   return (
     <footer className="bg-black border-t border-orange-900/20 py-10 relative overflow-hidden">
@@ -78,7 +81,23 @@ export default function Footer() {
 
           <div className="space-y-3">
             <h3 className="text-lg font-semibold text-orange-500">Tagapayo</h3>
-            <p className="text-gray-300">Rose Ann Dela Paz Aler</p>
+            <div className="flex flex-col items-center md:items-start">
+              <div className="relative h-24 w-24 mb-3 rounded-full overflow-hidden border-2 border-orange-500">
+                <Image
+                  src="/images/tagapayo.jpg"
+                  alt="Rose Ann Dela Paz Aler"
+                  width={96}
+                  height={96}
+                  className="object-cover"
+                />
+              </div>
+              <p className="text-gray-300 font-medium">Rose Ann Dela Paz Aler</p>
+              <p className="text-gray-400 text-sm mt-2">Propesor sa Filipino at Eksperto sa Kulturang Pilipino</p>
+              <p className="text-gray-400 text-sm mt-1">
+                Nag-ambag ng mahahalagang kaalaman at gabay sa pananaliksik tungkol sa proseso ng pag-uuling ng bao at
+                ang kahalagahan nito sa kultura ng San Lorenzo Ruiz.
+              </p>
+            </div>
           </div>
 
           <div className="space-y-3">
@@ -115,4 +134,3 @@ export default function Footer() {
     </footer>
   )
 }
-
